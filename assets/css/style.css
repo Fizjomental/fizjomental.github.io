@@ -53,11 +53,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
-  margin-top: -120px;
+  margin-top: -104px;
   z-index: 9;
 }
 
-#physio .hero-container {
+#physio .physio-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -211,7 +211,8 @@ section {
 }
 
 .footer-social li a:hover {
-	color: yellow;
+	color: rgb(218, 213, 213) 
+  /* #273755; */
 }
 
 @media (max-width: 768px) {
